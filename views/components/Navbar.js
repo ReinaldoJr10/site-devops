@@ -5,7 +5,7 @@ let Navbar = {
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" href="/#/" style="width: 8em;">
-                            <img src="/views/components/logo.png">
+                            <img src="/site-devops/views/components/logo.png">
                         </a>
 
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
