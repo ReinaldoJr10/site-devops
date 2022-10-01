@@ -24,10 +24,10 @@ let Navbar = {
 
                     <div id="navbarBasicExample" class="navbar-menu is-active" aria-expanded="true">
                         <div class="navbar-start">
-                            <a class="navbar-item" href="/#/about">
+                            <a class="navbar-item" href="/site-devops//#/about">
                                 About
                             </a>
-                            <a class="navbar-item" href="/#/secret">
+                            <a class="navbar-item" href="/site-devops/#/secret">
                                 Secret
                             </a>
                             <a class="navbar-item" href="/#/">
