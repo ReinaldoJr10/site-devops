@@ -1,23 +1,23 @@
 "use strict";
 
-import Home         from './site-devops/views/pages/Home.js'
-import About        from './site-devops/views/pages/About.js'
-import Error404     from './site-devops/views/pages/Error404.js'
-import PostShow     from './site-devops/views/pages/PostShow.js'
-import Register     from './site-devops/views/pages/Register.js'
+import Home         from './views/pages/Home.js'
+import About        from './views/pages/About.js'
+import Error404     from './views/pages/Error404.js'
+import PostShow     from './views/pages/PostShow.js'
+import Register     from './views/pages/Register.js'
 //import Login        from './views/pages/login.js'
 
 
-import Navbar       from './site-devops/views/components/Navbar.js'
-import Bottombar    from './site-devops/views/components/Bottombar.js' 
+import Navbar       from './views/components/Navbar.js'
+import Bottombar    from './views/components/Bottombar.js' 
 
 import Utils        from './services/Utils.js'
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
-    '/'             : Home
-    , '/about'      : About
-    , '/p/:id'      : PostShow
+    '/site-devops/'             : Home
+    , '/site-devops/about'      : About
+    , '/site-devops/p/:id'      : PostShow
     , '/register'   : Register
     //, '/login'      : Login
 };
