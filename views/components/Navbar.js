@@ -4,7 +4,7 @@ let Navbar = {
              <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="/#/" style="width: 8em;">
+                        <a class="navbar-item" href="/site-devops/#/" style="width: 8em;">
                             <img src="/site-devops/views/components/logo.png">
                         </a>
 
@@ -24,13 +24,13 @@ let Navbar = {
 
                     <div id="navbarBasicExample" class="navbar-menu is-active" aria-expanded="true">
                         <div class="navbar-start">
-                            <a class="navbar-item" href="/site-devops//#/about">
+                            <a class="navbar-item" href="/site-devops/#/about">
                                 About
                             </a>
                             <a class="navbar-item" href="/site-devops/#/secret">
                                 Secret
                             </a>
-                            <a class="navbar-item" href="/#/">
+                            <a class="navbar-item" href="/site-devops/#/">
                                 Home
                             </a>
                         </div>                        
